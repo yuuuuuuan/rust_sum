@@ -18,6 +18,13 @@ impl Sum for [u32] {
 }
 
 fn main() {
-    let arr1: &mut [u32] = &mut [u32::MAX-3, 1, 2];
+    let arr1: &mut [u32] = &mut [100;8];
+    let arr2: &mut [u32] = &mut [1,2,3,4,5];
+    let arr3: &mut [u32] = &mut [u32::MAX];
+    let arr4: &mut [u32] = &mut [u32::MAX,1];
     println!("{:?}",arr1.get_sum());
+    println!("{:?}",arr2.get_sum());
+    println!("{:?}",arr3.get_sum());
+    println!("{:?}",arr4.get_sum());
+
 }
