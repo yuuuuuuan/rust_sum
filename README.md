@@ -12,3 +12,4 @@ Array is [4294967295, 1]
 Sum is None
 
 ```
+![img](https://github.com/yuuuuuuan/rust_sum/blob/master/sum.PNG)
